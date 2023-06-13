@@ -14,7 +14,6 @@ return {
     },
     config = function()
       local telescope = require('telescope')
-      vim.keymap.set('n','<leader>ff',builtin.find_files,{})
       telescope.setup {
         defaults = {
           previewer = false,
